@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#top {
+    background-color: #F7C35F;
+}
+
+#top h5{
+    color: #000000;
+}
+#top .social-media a{
+    font-size: 20px;
+}
+
+nav {
+    z-index: 999;
+    -webkit-box-shadow: 0 10px 20px #00000030;
+    box-shadow: 0 10px 20px #00000030;
+}
+
+.nav-item a{
+    font-weight: 500;
+    padding: 5px 15px;
+    color: #000000;
+
+}
+
+.nav-item a:hover{
+    transition: all .2s ease-in-out;
+    color: #12B700;
+}
+
+.navbar-brand img {
+    height: 45px;
+}
+
+.nav-contact {
+    font-weight: 500;
+    color: #000000;
+    padding: 17px 15px;
+    border: 2.5px solid #F7C35F;
+    border-radius: 15px;
+}
+.nav-contact:hover {
+    transition: all .3s ease-in-out;
+    background-color: #F7C35F;
+    /* border: 2.5px solid #12B700; */
+    border-radius: 15px;
+}
+
+.nav-contact a {
+    text-decoration: none;
+}
+
+#step-section{
+    background-color: #fbfbfb;
+}
+
+#step-section h3 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'EB Garamond', serif;
+    color: #12B700;
+}
+
+#step-section span {
+    font-family: 'EB Garamond', serif;
+}
+
+.step-p {
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#products h3 {
+    color: #12B700;
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.product-1 {
+    width: 246px;
+    height: 332px;
+    box-shadow: 0px 4px 13.2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px 15px 0px 15px;
+}
+
+.product-1 img {
+    margin-bottom: 10px;
+}
+
+.leaf-btn {
+    margin: 70px 0;
+    text-decoration: none;
+}
+
+.leaf-btn a {
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 500;
+    border: 2.5px solid #F7C35F;
+    background-color: #F7C35F;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.leaf-btn a:hover {
+    transition: all .3s ease-in-out;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#choose-us p:nth-child(1) {
+    color: #12B700;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 40px !important;
+}
+
+.timeline-with-icons {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+    position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+    position: absolute;
+    left: -48px;
+    background-color: #fff7dd;
+    color: #F7C35F;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.policy-div {
+    margin: 20px 30px;
+    padding: 40px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.policy-div img{
+    margin-bottom: 20px;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #F7C35F !important;
+    font-size: 11px;
+}
+
+#testimonial h3{
+    color: #12B700;
+    font-size: 40px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+
+
+@media (max-width:992px) {
+    .nav-link {
+        text-align: center !important;
+    }
+
+    .navbar-text {
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-contact-btn {
+        display: flex;
+        justify-content: center;
+    }
+}
